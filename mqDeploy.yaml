@@ -4,7 +4,7 @@ metadata:
   name: mqcl3
   namespace: wbc9
 spec:
- license:
+  license:
     accept: true
     license: L-RJON-CD3JKX
     metric: VirtualProcessorCore
