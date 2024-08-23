@@ -24,7 +24,7 @@ spec:
         memory: 1Gi
     availability:
     # type: SingleInstance
-#    type: NativeHA
+      type: NativeHA
     name: CL3
     mqsc:
     - configMap:
