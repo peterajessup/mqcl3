@@ -19,4 +19,8 @@ data:
     DEFINE QALIAS(STL1) TARGET(REQQ) CLUSTER(OCPCL) CLWLPRTY(8) REPLACE
     DEFINE QALIAS(CLNQ) TARGET(REQQ) CLUSTER(OCPCL) CLWLPRTY(4) REPLACE
     DEFINE QLOCAL(REQQ) CLUSTER(OCPCL) DEFPSIST(YES) REPLACE
-    
+  mq.ini: |-
+    Service:
+      Name=AuthorizationService
+      EntryPoints=14
+      SecurityPolicy=UserExternal
